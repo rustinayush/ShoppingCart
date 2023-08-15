@@ -6,7 +6,7 @@ const CartItem = (props) => {
     const { cartItems, addToCart, removeFromCart, updatedCartItemCount } = useContext(ShopContext);
     return (
         <div className='cartItem'>
-            <img src={productImage} />
+            <img src={productImage} alt="image" />
             <div className='description'>
                 <p>
                     <b>
